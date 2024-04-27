@@ -1,0 +1,423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdalltest\\cartrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|solutionrelative:shoppingdalltest\\cartrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865391CD-F4DE-426E-8EDE-29F35ED5E45E}|ShoppingBL_Test\\ShoppingBL_Test.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbl_test\\cartbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865391CD-F4DE-426E-8EDE-29F35ED5E45E}|ShoppingBL_Test\\ShoppingBL_Test.csproj|solutionrelative:shoppingbl_test\\cartbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\cartbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\cartbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\abstractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\abstractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdalltest\\customerrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|solutionrelative:shoppingdalltest\\customerrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingmodellibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdalltest\\shoppingdalltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D39EB825-B1B4-4664-88A2-EC532A2854C6}|ShoppingDALLTest\\ShoppingDALLTest.csproj|solutionrelative:shoppingdalltest\\shoppingdalltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\shoppingdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\shoppingdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1422908B-7A13-447B-BCE2-EB89CAB3DA05}|ShoppingDALLibrary\\ShoppingDALLibrary.csproj|solutionrelative:shoppingdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\shoppingbllibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\shoppingbllibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D20252-D6DE-49CB-807F-820726E6330B}|ShoppingFE\\ShoppingFE.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D20252-D6DE-49CB-807F-820726E6330B}|ShoppingFE\\ShoppingFE.csproj|solutionrelative:shoppingfe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\blexceptions\\stocknotavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\blexceptions\\stocknotavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\blexceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\blexceptions\\productnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingbllibrary\\blexceptions\\quantityexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69074288-A04F-4A36-8A5C-26AA2AA3D272}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\blexceptions\\quantityexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\LibraryManagementAppSolution\\LibraryManagementAppSolution\\LibraryManagementBLLibrary\\BookBorrowExceptions\\BookNotAvailableException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingmodellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingmodellibrary\\exceptions\\nocustomerwithgivenidexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\exceptions\\nocustomerwithgivenidexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\intern_tasks\\day11\\shoppingfesolution\\shoppingmodellibrary\\shoppingmodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F539C5F4-7AF1-4B4D-8D01-A7F845DA4634}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\shoppingmodellibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\CartRepositoryTest.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLTest\\CartRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\CartRepositoryTest.cs",
+              "RelativeToolTip": "ShoppingDALLTest\\CartRepositoryTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:19:01.638Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartBLTest.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBL_Test\\CartBLTest.cs",
+              "RelativeDocumentMoniker": "ShoppingBL_Test\\CartBLTest.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBL_Test\\CartBLTest.cs",
+              "RelativeToolTip": "ShoppingBL_Test\\CartBLTest.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA4wAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:19:46.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\CartBL.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\CartBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\CartBL.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\CartBL.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswGAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:12:35.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\ProductRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\ProductRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:16:59.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CartRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CartRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\CartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T03:53:16.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\IProductService.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\IProductService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\IProductService.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:38:49.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\CartItem.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\CartItem.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\CartItem.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:00:15.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\AbstractRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\AbstractRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\AbstractRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\AbstractRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T03:53:23.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\ICartService.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\ICartService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\ICartService.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:09:34.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\CustomerRepositoryTest.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLTest\\CustomerRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\CustomerRepositoryTest.cs",
+              "RelativeToolTip": "ShoppingDALLTest\\CustomerRepositoryTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:11:23.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Customer.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Customer.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Customer.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Customer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:51:36.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShoppingDALLTest.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\ShoppingDALLTest.csproj",
+              "RelativeDocumentMoniker": "ShoppingDALLTest\\ShoppingDALLTest.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLTest\\ShoppingDALLTest.csproj",
+              "RelativeToolTip": "ShoppingDALLTest\\ShoppingDALLTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T07:06:26.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShoppingDALLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+              "RelativeToolTip": "ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T07:04:53.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CustomerRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\CustomerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:13:14.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\CartItemRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\CartItemRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\CartItemRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:17:46.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShoppingBLLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+              "RelativeToolTip": "ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T06:00:29.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingFE\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingFE\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingFE\\Program.cs",
+              "RelativeToolTip": "ShoppingFE\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:40:58.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\IRepository.cs",
+              "RelativeDocumentMoniker": "ShoppingDALLibrary\\IRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingDALLibrary\\IRepository.cs",
+              "RelativeToolTip": "ShoppingDALLibrary\\IRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:07:48.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StockNotAvailableException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\StockNotAvailableException.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\BLExceptions\\StockNotAvailableException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\StockNotAvailableException.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\BLExceptions\\StockNotAvailableException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:54:15.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\ProductNotFoundException.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\BLExceptions\\ProductNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\ProductNotFoundException.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\BLExceptions\\ProductNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:53:53.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuantityExceededException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\QuantityExceededException.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\BLExceptions\\QuantityExceededException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingBLLibrary\\BLExceptions\\QuantityExceededException.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\BLExceptions\\QuantityExceededException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:53:06.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookNotAvailableException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\LibraryManagementAppSolution\\LibraryManagementAppSolution\\LibraryManagementBLLibrary\\BookBorrowExceptions\\BookNotAvailableException.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\LibraryManagementAppSolution\\LibraryManagementAppSolution\\LibraryManagementBLLibrary\\BookBorrowExceptions\\BookNotAvailableException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\LibraryManagementAppSolution\\LibraryManagementAppSolution\\LibraryManagementBLLibrary\\BookBorrowExceptions\\BookNotAvailableException.cs",
+              "RelativeToolTip": "..\\..\\..\\LibraryManagementAppSolution\\LibraryManagementAppSolution\\LibraryManagementBLLibrary\\BookBorrowExceptions\\BookNotAvailableException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:56:20.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Product.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Product.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Product.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:41:27.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NoCustomerWithGivenIdException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Exceptions\\NoCustomerWithGivenIdException.cs",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\Exceptions\\NoCustomerWithGivenIdException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\Exceptions\\NoCustomerWithGivenIdException.cs",
+              "RelativeToolTip": "ShoppingModelLibrary\\Exceptions\\NoCustomerWithGivenIdException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:25:02.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShoppingModelLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+              "RelativeDocumentMoniker": "ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\INTERN_TASKS\\Day11\\ShoppingFESolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+              "RelativeToolTip": "ShoppingModelLibrary\\ShoppingModelLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T05:24:21.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
