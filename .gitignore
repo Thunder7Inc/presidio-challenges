@@ -1,0 +1,24 @@
+# Ignore build output and artifacts
+bin/
+obj/
+out/
+
+# Ignore NuGet Packages
+packages/
+*.nupkg
+
+# Ignore the local user settings file
+*.user
+*.suo
+
+# Ignore Visual Studio code folder
+.vs/
+
+# Ignore log files and databases
+*.log
+*.sqlite
+
+# Ignore all files that might appear in the root folder and are created dynamically
+*.swp
+*~
+.DS_Store

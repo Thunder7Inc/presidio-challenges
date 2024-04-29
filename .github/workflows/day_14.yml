@@ -1,0 +1,43 @@
+name: MySQL Connection Test
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'day14/**'
+
+jobs:
+  test-day14:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ROOT_PASSWORD: hehe
+          MYSQL_DATABASE: testdb
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=10s
+          --health-retries=10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.203'
+
+      - name: Build
+        run: dotnet build --configuration Release
+        working-directory: day14/MySQLConnectionTest
+
+      - name: Test connection
+        run: |
+          dotnet run
+        working-directory: day14/MySQLConnectionTest
