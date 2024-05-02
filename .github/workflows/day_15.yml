@@ -1,0 +1,44 @@
+name: SQL Test for Day 15
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'day15/**'
+
+jobs:
+  test-sql-day15:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_ROOT_PASSWORD: secret
+          MYSQL_DATABASE: testdb
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost -p3306 -uroot -psecret"
+          --health-interval=10s
+          --health-timeout=10s
+          --health-retries=5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install MySQL client
+        run: sudo apt-get install -y mysql-client
+
+      - name: Create SQL Schema
+        run: |
+          mysql -h 127.0.0.1 -P 3306 -uroot -psecret testdb < day15/main.sql
+
+      - name: Show tables
+        run: |
+          echo "SHOW TABLES;" | mysql -h 127.0.0.1 -P 3306 -uroot -psecret testdb
+
+      - name: Verify table structure for EMP
+        run: |
+          echo "DESCRIBE EMP;" | mysql -h 127.0.0.1 -P 3306 -uroot -psecret testdb
