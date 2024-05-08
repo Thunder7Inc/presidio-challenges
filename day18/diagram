@@ -1,0 +1,5 @@
+[Users|UserID(PK);Name;Email;Password;JoinDate]1-*>[UserSubscriptions|UserSubscriptionID(PK);StartDate;EndDate]
+[Subscriptions|SubscriptionID(PK);Name;Price;MaxRentals;Duration]1-*>[UserSubscriptions]
+[UserSubscriptions]1-*>[PaymentHistory|PaymentID(PK);PaymentDate;Amount]
+[Users]1-*>[Rentals|RentalID(PK);RentalDate;DueDate;ReturnDate]
+[Videos|VideoID(PK);Title;Description;Genre;ReleaseYear]1-*>[Rentals]
