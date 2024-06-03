@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Card</title>
+    <style>
+      .main {
+        border: black 3px solid;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+      }
+      .logo img {
+        width: 100px;
+      }
+      .title {
+        text-align: center;
+        flex-grow: 1;
+        margin-left: -100px;
+      }
+      .photo img {
+        width: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      .candidate-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        margin-top: 10px;
+      }
+      .info h3 {
+        margin: 5px 0;
+      }
+      .grade-details {
+        padding: 10px 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .overall-grade {
+        padding: 10px 0;
+        border-top: 2px solid black;
+        margin-top: 10px;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-top: 2px solid black;
+        margin-top: 10px;
+      }
+      .footer h3 {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_73ouRf4HMXudQ4RIltmsMx6iUJrxci2DAA&s" alt="logo" />
+        </div>
+        <div class="title">
+          <h1>RMKCET</h1>
+          <h2>Chennai Gummidipondi , TAMIL NADU, INDIA</h2>
+        </div>
+      </div>
+      <div class="candidate-info">
+        <div class="info">
+          <h3>Name: HARSHA VARDHAN V</h3>
+          <h3>Roll No: 11162024358</h3>
+          <h3>Branch: Artificial Intelligence and Data Science</h3>
+          <h3>Degree: Bacherlor of Technology</h3>
+          <h3>Batch: 2020-2024</h3>
+        </div>
+        <div class="photo">
+          <img src="https://w7.pngwing.com/pngs/269/352/png-transparent-robert-downey-jr-iron-man-howard-stark-pepper-potts-marvel-cinematic-universe-robert-downey-jr-robert-downey-jr-iron-man-howard-stark.png" alt="photo" />
+        </div>
+      </div>
+      <div class="grade-details">
+        <h2>Semester 1</h2>
+        <table>
+          <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Marks Obtained</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td>Mathematics for Computer Science</td>
+            <td>100</td>
+            <td>92</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>Data Structures</td>
+            <td>100</td>
+            <td>85</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>Computer Networks</td>
+            <td>100</td>
+            <td>78</td>
+            <td>B+</td>
+          </tr>
+          <tr>
+            <td>Operating Systems</td>
+            <td>100</td>
+            <td>70</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>Database Management Systems</td>
+            <td>100</td>
+            <td>65</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>500</td>
+            <td>390</td>
+            <td>A</td>
+          </tr>
+        </table>
+        <h2>Semester 2</h2>
+        <table>
+          <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Marks Obtained</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td>Advanced Algorithms</td>
+            <td>100</td>
+            <td>88</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>Software Engineering</td>
+            <td>100</td>
+            <td>81</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>Machine Learning</td>
+            <td>100</td>
+            <td>75</td>
+            <td>B+</td>
+          </tr>
+          <tr>
+            <td>Web Technologies</td>
+            <td>100</td>
+            <td>68</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>Artificial Intelligence</td>
+            <td>100</td>
+            <td>60</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>500</td>
+            <td>372</td>
+            <td>A</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="overall-grade">
+        <h2>Overall Grade</h2>
+        <table>
+          <tr>
+            <th>Total Marks</th>
+            <th>Marks Obtained</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td>1000</td>
+            <td>762</td>
+            <td>A</td>
+          </tr>
+        </table>
+      </div>
+      <h3>For any queries, contact: </h3>
+      <div class="footer">
+        <h3>Principal</h3>
+        <h3>Phone: +91 90xxx</h3>
+        <h3>Email: Principal@rmkcet.ac.in</h3>
+      </div>
+    </div>
+  </body>
+</html>
