@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Registration Form</h2>
+        <form id="registrationForm" novalidate>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" onblur="validateName()">
+                <div id="nameError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+                <div id="phoneError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="form-control" id="dob" name="dob" onblur="calculateAge()">
+                <div id="dobError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="text" class="form-control" id="age" name="age" readonly>
+                <div id="ageError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" onblur="validateEmail()">
+                <div id="emailError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label><br>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="male" name="gender" value="male">
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="female" name="gender" value="female">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+                <div id="genderError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label>Qualification:</label><br>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="ssc" name="qualification" value="SSC">
+                    <label class="form-check-label" for="ssc">SSC</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="Intermediate" name="qualification" value="Intermediate">
+                    <label class="form-check-label" for="Intermediate">Intermediate</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="BTech" name="qualification" value="BTech">
+                    <label class="form-check-label" for="BTech">BTech</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="MTech" name="qualification" value="MTech">
+                    <label class="form-check-label" for="MTech">MTech</label>
+                </div>
+                <div id="qualificationError" class="text-danger"></div>
+            </div>
+            <div class="form-group">
+                <label for="profession">Profession:</label>
+                <select class="form-control" id="profession" name="profession" onblur="validateProfession()">
+                    <option value="">Select Profession</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Lawyer">Lawyer</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <div id="professionError" class="text-danger"></div>
+            </div>
+            <div class="button-container text-center">
+                <button type="button" class="btn btn-success" onclick="validateForm()">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="toast" class="toast">
+        <span class="close">&times;</span>
+        Customer registered successfully!
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
