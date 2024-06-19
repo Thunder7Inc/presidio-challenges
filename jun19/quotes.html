@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Quotes Project</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +28,9 @@
     </div>
   </nav>
   <div class="container mt-5">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="searchInput" placeholder="Search for quotes..." oninput="searchQuotes()">
+    </div>
     <div id="quotes" class="row"></div>
     <nav aria-label="Page navigation">
       <ul class="pagination justify-content-center mt-4" id="pagination"></ul>
@@ -35,22 +38,24 @@
   </div>
   <script>
     const apiUrl = 'https://dummyjson.com/quotes';
+    let quotesData = [];
     let currentPage = 1;
-    const quotesPerPage = 6;
-    let totalQuotes = 0;
+    const quotesPerPage = 5;
+    let filteredQuotes = [];
 
-    async function fetchQuotes(page) {
-      const response = await fetch(`${apiUrl}?skip=${(page - 1) * quotesPerPage}&limit=${quotesPerPage}`);
+    async function fetchQuotes() {
+      const response = await fetch(apiUrl);
       const data = await response.json();
-      totalQuotes = data.total;
-      return data.quotes;
+      quotesData = data.quotes;
+      filteredQuotes = quotesData;
+      loadQuotes(currentPage);
     }
 
     function displayQuotes(quotes) {
       const quotesDiv = document.getElementById('quotes');
       quotesDiv.innerHTML = quotes.map(quote => `
         <div class="col-md-6 mb-4">
-          <div class="card">
+          <div class="card shadow-sm">
             <div class="card-body">
               <p class="card-text">"${quote.quote}"</p>
               <footer class="blockquote-footer">${quote.author}</footer>
@@ -83,10 +88,11 @@
       `;
     }
 
-    async function loadQuotes(page) {
-      const quotes = await fetchQuotes(page);
-      displayQuotes(quotes);
-      const totalPages = Math.ceil(totalQuotes / quotesPerPage);
+    function loadQuotes(page) {
+      const totalPages = Math.ceil(filteredQuotes.length / quotesPerPage);
+      const start = (page - 1) * quotesPerPage;
+      const end = start + quotesPerPage;
+      displayQuotes(filteredQuotes.slice(start, end));
       displayPagination(totalPages);
     }
 
@@ -98,7 +104,7 @@
     }
 
     function nextPage() {
-      const totalPages = Math.ceil(totalQuotes / quotesPerPage);
+      const totalPages = Math.ceil(filteredQuotes.length / quotesPerPage);
       if (currentPage < totalPages) {
         currentPage++;
         loadQuotes(currentPage);
@@ -110,7 +116,36 @@
       loadQuotes(page);
     }
 
-    loadQuotes(currentPage);
+    function searchQuotes() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const authorPrefix = 'author:';
+      const contentPrefix = 'content:';
+      let authorQuery = '';
+      let contentQuery = '';
+      
+      const authorIndex = query.indexOf(authorPrefix);
+      const contentIndex = query.indexOf(contentPrefix);
+      
+      if (authorIndex !== -1) {
+        const endIndex = contentIndex !== -1 && contentIndex > authorIndex ? contentIndex : query.length;
+        authorQuery = query.slice(authorIndex + authorPrefix.length, endIndex).trim();
+      }
+      
+      if (contentIndex !== -1) {
+        const endIndex = authorIndex !== -1 && authorIndex > contentIndex ? authorIndex : query.length;
+        contentQuery = query.slice(contentIndex + contentPrefix.length, endIndex).trim();
+      }
+      
+      filteredQuotes = quotesData.filter(quote =>
+        (!authorQuery || quote.author.toLowerCase().includes(authorQuery)) &&
+        (!contentQuery || quote.quote.toLowerCase().includes(contentQuery))
+      );
+      
+      currentPage = 1;
+      loadQuotes(currentPage);
+    }
+
+    fetchQuotes();
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
