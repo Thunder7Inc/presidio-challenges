@@ -120,27 +120,26 @@
       const query = document.getElementById('searchInput').value.toLowerCase();
       const authorPrefix = 'author:';
       const contentPrefix = 'content:';
+      
+      const terms = query.split(' ').filter(term => term);
       let authorQuery = '';
       let contentQuery = '';
-      
-      const authorIndex = query.indexOf(authorPrefix);
-      const contentIndex = query.indexOf(contentPrefix);
-      
-      if (authorIndex !== -1) {
-        const endIndex = contentIndex !== -1 && contentIndex > authorIndex ? contentIndex : query.length;
-        authorQuery = query.slice(authorIndex + authorPrefix.length, endIndex).trim();
-      }
-      
-      if (contentIndex !== -1) {
-        const endIndex = authorIndex !== -1 && authorIndex > contentIndex ? authorIndex : query.length;
-        contentQuery = query.slice(contentIndex + contentPrefix.length, endIndex).trim();
-      }
-      
+
+      terms.forEach(term => {
+        if (term.startsWith(authorPrefix)) {
+          authorQuery = term.slice(authorPrefix.length).trim();
+        } else if (term.startsWith(contentPrefix)) {
+          contentQuery = term.slice(contentPrefix.length).trim();
+        } else {
+          contentQuery += ` ${term}`;
+        }
+      });
+
       filteredQuotes = quotesData.filter(quote =>
         (!authorQuery || quote.author.toLowerCase().includes(authorQuery)) &&
-        (!contentQuery || quote.quote.toLowerCase().includes(contentQuery))
+        (!contentQuery || quote.quote.toLowerCase().includes(contentQuery.trim()))
       );
-      
+
       currentPage = 1;
       loadQuotes(currentPage);
     }
